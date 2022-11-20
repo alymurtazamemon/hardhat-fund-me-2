@@ -1,4 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox")
+require("@nomiclabs/hardhat-etherscan")
+require("hardhat-gas-reporter")
+require("@nomicfoundation/hardhat-chai-matchers")
 require("hardhat-deploy")
 require("dotenv").config()
 
